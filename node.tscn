@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4hj2tdsesqla"]
+
+[ext_resource type="Script" path="res://node.gd" id="1_oe0wl"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_oe0wl")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Button1" type="Button" parent="."]
+offset_left = 38.0
+offset_top = 29.0
+offset_right = 83.0
+offset_bottom = 74.0
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 39.0
+offset_top = 96.0
+offset_right = 78.0
+offset_bottom = 135.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 157.0
+offset_top = 77.0
+offset_right = 197.0
+offset_bottom = 100.0
